@@ -156,6 +156,12 @@ body {
   line-height: 47px;
 }
 
+#goTop {
+  text-decoration: none;
+  color: #4c51f7;
+  float: right;
+}
+
 .bx-viewport {
   height: 465px !important;
 }

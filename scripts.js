@@ -27,6 +27,7 @@ $(document).ready(function () {
     ];
 
     //Then each jsonPost goes into an HTML structure for it show
+    
     jsonPost.forEach(element => {
         let htmlPost = `
         <article class="post">
@@ -41,8 +42,17 @@ $(document).ready(function () {
         `;
         //adding every post
         $("#posts").append(htmlPost);
+
+        $("#goTop").click(function (e) { 
+            e.preventDefault();
+            $("html,body").animate({scrollTop: 0},500);
+            
+        });
     });
 
+    $("a").click(function(e){
+        e.preventDefault();
+    })
 
 
 
