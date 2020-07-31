@@ -157,10 +157,28 @@ body {
 }
 
 #goTop {
+  font-weight: 600;
+  font-family: Helvetica, Arial;
   text-decoration: none;
-  color: #4c51f7;
+  padding: 10px;
+  border: 2px solid #4c51f7;
+  color: white;
   float: right;
+  cursor: pointer;
+  margin-top: 3px;
+  background: rgba(51, 51, 51, 0.7);
 }
+
+#goTop:hover{
+  color: black;
+  
+  background-color: #ffffff;
+  transition: all 0.3s linear;
+}
+
+
+
+
 
 .bx-viewport {
   height: 465px !important;
