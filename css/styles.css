@@ -171,15 +171,23 @@ body {
 
 #goTop:hover{
   color: black;
-  
   background-color: #ffffff;
   transition: all 0.3s linear;
 }
 
-
-
-
-
 .bx-viewport {
   height: 465px !important;
+}
+
+#box{
+  float: left;
+  width: 60%;
+}
+
+.ui-state-active{
+  background: #4c51f7 !important; 
+}
+
+.ui-widget-content{
+  background: azure !important;
 }
