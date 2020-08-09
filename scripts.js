@@ -4,9 +4,10 @@ $(document).ready(function () {
 
     //function that allow us to show a image slider (thanks to bxslider plugin)
 
+    console.log(window.location.href);
     
 
-    if (window.location.href.indexOf('index.html') != -1) {
+    if (window.location.href.indexOf('index.html') != -1 || window.location.href.indexOf('https://junn3r.github.io/') != -1) {
         const slider = () => {
             $('.bxslider').bxSlider({
                 mode: 'fade',
@@ -64,7 +65,7 @@ $(document).ready(function () {
     //accordeon
     if (window.location.href.indexOf('about.html') != -1) {
         $( function() {
-            $( "#accordion" ).accordion();
+            $( "#accordion" ).accordion({heightStyle: "content"});
           } );
     }
 
