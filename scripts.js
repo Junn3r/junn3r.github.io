@@ -62,8 +62,8 @@ $(document).ready(function () {
 
 
 
-    //accordeon
-    if (window.location.href.indexOf('about.html') != -1) {
+    //accordion
+    if (window.location.href.indexOf('about.html') != -1 || window.location.href.indexOf('https://junn3r.github.io/about.html') != -1) {
         $( function() {
             $( "#accordion" ).accordion({heightStyle: "content"});
           } );
