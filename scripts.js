@@ -23,7 +23,7 @@ $(document).ready(function () {
 
     }
 
-    if (window.location.href.indexOf('index.html') != -1) {
+    if (window.location.href.indexOf('index.html') != -1 || window.location.href.indexOf('https://junn3r.github.io/') != -1) {
         //JSON that stores all posts in JSON format
 
         let jsonPost = [
